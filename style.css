@@ -1,0 +1,25 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background: black;
+}
+h1{
+	color: white;
+	text-align: center;
+	line-height: 100vh;
+	font-size: 3rem;
+}
+span{
+	opacity: 1;
+	transform: translateY(50px);
+	transition: all 1s ease;
+	display: inline-block;
+}
+span.fade{
+	opacity: 1;
+	color: #e26286;
+	transform: translateY(0px);
+}
